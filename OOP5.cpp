@@ -1,3 +1,6 @@
+// Function Templates allow us to pass datatype as a parameter and hence we can use a generic code for more than 1 data type.
+
+
 #include <iostream>
 
 using namespace std;
@@ -39,7 +42,17 @@ void insertionSort(T arr[], int size)
 }
 
 template <typename T>
-void printArray(const T arr[], int size) 
+void inputArray(T arr[], int size) 
+{
+    cout << "Enter " << size << " elements: ";
+    for (int i = 0; i < size; i++) 
+    {
+        cin >> arr[i];
+    }
+}
+
+template <typename T>
+void printArray(T arr[], int size) 
 {
     for (int i = 0; i < size; ++i) 
     {
@@ -48,15 +61,7 @@ void printArray(const T arr[], int size)
     cout << endl;
 }
 
-template <typename T>
-void inputArray(T arr[], int size) 
-{
-    cout << "Enter " << size << " elements: ";
-    for (int i = 0; i < size; ++i) 
-    {
-        cin >> arr[i];
-    }
-}
+
 
 int main() 
 {
@@ -165,6 +170,7 @@ int main()
             case 5:
                 cout << "Exiting program. Goodbye!\n";
                 break;
+
             default:
                 cout << "Invalid choice. Please enter a valid option.\n";
         }

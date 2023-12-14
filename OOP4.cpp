@@ -1,5 +1,4 @@
-#include <iostream>
-#include <fstream>
+#include <bits/stdc++.h>
  
 using namespace std;
  
@@ -31,7 +30,7 @@ int main()
        return 0;
    }   
     
-   //read untill end of file is not found.
+   //read until end of file is not found.
    char ch; //to read single character
    cout<<"File content: ";
     

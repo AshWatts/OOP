@@ -34,6 +34,6 @@ int main()
                           
         cout<<"Do you wish to continue?(y/n):";
         cin>>a;
-    }while(a=='y'||a=='Y');
+    }while(a=='y' || a=='Y');
 }
 
