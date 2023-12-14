@@ -1,11 +1,3 @@
-//============================================================================
-// Name        : Assignment3.cpp
-// Author      : Ayush W
-// Version     :
-// Copyright   : x
-// Description : Hello World in C++, Ansi-style
-//============================================================================
-
 #include <iostream>
 #include <string>
 using namespace std;
