@@ -30,7 +30,7 @@ public:
     void displayData()
     {
         cout << "Title: " << title << endl;
-        cout << "Price: ₹" << price << endl;
+        cout << "Price: " << price <<" Rs."<< endl;
     }
 };
 
