@@ -30,7 +30,7 @@ bool compare(const Item &i1, const Item &i2)
 {
  //if (i1.name != i2.name) return i1.cost < i2.cost;
  return i1.cost < i2.cost;
-}
+}       
 int main()
 {
  int ch;
