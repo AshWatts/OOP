@@ -1,4 +1,5 @@
-#include <bits/stdc++.h>
+#include <iostream>
+#include<fstream>
 using namespace std;
  
 int main()
@@ -16,7 +17,7 @@ int main()
     
    cout<<"File created successfully."<<endl;
    //write text into file
-   file<<"ABCD.";
+   file<<"bnthugnbvgfbni.";
    //closing the file
    file.close();
     
