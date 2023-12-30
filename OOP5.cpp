@@ -5,7 +5,7 @@
 
 using namespace std;
 
-template <typename T>
+template <class T>
 void selectionSort(T arr[], int size) 
 {
     for (int i = 0; i < size - 1; ++i) 
@@ -24,7 +24,7 @@ void selectionSort(T arr[], int size)
     }
 }
 
-template <typename T>
+template <class T>
 void insertionSort(T arr[], int size)
 {
     int i, key, j;
@@ -41,7 +41,7 @@ void insertionSort(T arr[], int size)
     }
 }
 
-template <typename T>
+template <class T>
 void inputArray(T arr[], int size) 
 {
     cout << "Enter " << size << " elements: ";
@@ -51,7 +51,7 @@ void inputArray(T arr[], int size)
     }
 }
 
-template <typename T>
+template <class T>
 void printArray(T arr[], int size) 
 {
     for (int i = 0; i < size; ++i) 
