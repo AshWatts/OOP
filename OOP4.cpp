@@ -9,7 +9,7 @@ int main()
    //opening file "sample.txt" in out(write) mode
    file.open("sample.txt",ios::out);
     
-   if(!file)
+   if(!file.is_open())
    {
        cout<<"Error in creating file!!!"<<endl;
        return 0;

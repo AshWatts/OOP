@@ -17,7 +17,7 @@ int main()
     pm["Kerala"] = 4;
     population::iterator iter ;
     char a;
-    do
+    do  
     {
         string state;
         cout<<"\nEnter that state you want to know the population of: ";
@@ -36,4 +36,3 @@ int main()
         cin>>a;
     }while(a=='y' || a=='Y');
 }
-
