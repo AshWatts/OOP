@@ -4,8 +4,7 @@ using namespace std;
 class Complex
 {
 public:
-    int real;
-    int img;
+    int real,img;
 
     Complex(int x=0,int y=0)
     {
