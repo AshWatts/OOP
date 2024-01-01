@@ -31,7 +31,7 @@ public:
 void operator >>(istream &in, Complex &c)
 {
     in >> c.real;
-    in>> c.img;
+    in >> c.img;
 }
 void operator <<(ostream &out, Complex &c)
 {
